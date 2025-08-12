@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>State and Central Government Jobs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .heading {
+      text-align: center;
+      font-size: 36px;
+      color: #333;
+      margin: 20px 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .block {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      width: 80%;
+      max-width: 800px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .block:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .block h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .block p {
+      color: #666;
+    }
+
+    .block:nth-child(1) { background-color: #ffe0b2; }
+    .block:nth-child(2) { background-color: #c8e6c9; }
+    .block:nth-child(3) { background-color: #d1c4e9; }
+    .block:nth-child(4) { background-color: #b3e5fc; }
+    .block:nth-child(5) { background-color: #f0f4c3; }
+    .block:nth-child(6) { background-color: #ffccbc; }
+    .block:nth-child(7) { background-color: #e1bee7; }
+    .block:nth-child(8) { background-color: #c5cae9; }
+    .block:nth-child(9) { background-color: #fff9c4; }
+    .block:nth-child(10) { background-color: #b2dfdb; }
+
+    .arrow-button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background-color: transparent;
+      border: none;
+      font-size: 24px;
+      color: #333;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .arrow-button:hover {
+      color: #555;
+    }
+
+    .back-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="heading">State and Central Government Jobs</h1>
+  <div class="container">
+    <div class="block">
+      <h2>Indian Space Research Organisation (ISRO)</h2>
+      <p>Be part of India's space missions, satellite launches, and research work.</p>
+      <a href="isro.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>Food Corporation of India (FCI)</h2>
+      <p>Manage India's food grain supply chain and public distribution system.</p>
+      <a href="fci.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>Border Roads Organisation (BRO)</h2>
+      <p>Contribute to building roads and infrastructure in tough terrains for defense and connectivity.</p>
+      <a href="bro.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>Indian Meteorological Department (IMD)</h2>
+      <p>Work on weather forecasting, climate studies, and disaster warnings.</p>
+      <a href="imd.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>Central Pollution Control Board (CPCB)</h2>
+      <p>Help monitor and reduce environmental pollution levels in India.</p>
+      <a href="cpcb.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>Indian Coast Guard</h2>
+      <p>Serve the maritime interests of India with search and rescue operations, coastal security, and patrol.</p>
+      <a href="coastguard.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>Survey of India</h2>
+      <p>Join India's national survey and mapping organization under the Department of Science & Technology.</p>
+      <a href="surveyofindia.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>Central Armed Police Forces (CAPF)</h2>
+      <p>Serve in forces like BSF, CRPF, ITBP, and SSB to ensure internal security and border protection.</p>
+      <a href="capf.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>National Informatics Centre (NIC)</h2>
+      <p>Develop and manage digital solutions and government IT infrastructure across departments.</p>
+      <a href="nic.html" class="arrow-button">→</a>
+    </div>
+
+    <div class="block">
+      <h2>State Public Service Commissions (PSC)</h2>
+      <p>Join various state-level administrative, technical, and executive positions through state PSC exams.</p>
+      <a href="statepsc.html" class="arrow-button">→</a>
+    </div>
+
+    <button class="back-button" onclick="goBack()">Back</button>
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primary & Secondary School Teacher Roles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: left;
+        }
+        header {
+            background: linear-gradient(135deg, #E3F2FD, #BBDEFB);
+            color: #333;
+            padding: 1.5rem;
+            text-align: left;
+            border-radius: 15px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1rem;
+            color: #555;
+        }
+        .available-fields {
+            padding: 2rem;
+        }
+        .available-fields h2 {
+            text-align: left;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #444;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 1.5rem;
+            padding: 0 1rem;
+        }
+        .job-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: calc(23% - 2rem);
+            padding: 1.5rem;
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Color for each card */
+        .job-card:nth-child(1) { background-color: #E3F2FD; }
+        .job-card:nth-child(2) { background-color: #F5F5F5; }
+        .job-card:nth-child(3) { background-color: #E1F5FE; }
+        .job-card:nth-child(4) { background-color: #F8F8F8; }
+        .job-card:nth-child(5) { background-color: #E3F2FD; }
+        .job-card:nth-child(6) { background-color: #FFFFFF; }
+        .job-card:nth-child(7) { background-color: #E1F5FE; }
+        .job-card:nth-child(8) { background-color: #F5F5FC; }
+        .job-card:nth-child(9) { background-color: #FFFAFA; }
+        .job-card:nth-child(10) { background-color: #E3F2FD; }
+        .job-card:nth-child(11) { background-color: #F8F8FE; }
+        .job-card:nth-child(12) { background-color: #FFFFFF; }
+
+        .job-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .job-card h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+            color: #444;
+        }
+        .job-card p {
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .job-card button {
+            background-color: #BBDEFB;
+            color: black;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .job-card button:hover {
+            background-color: #90CAF9;
+        }
+
+        @media (max-width: 768px) {
+            .job-card {
+                width: calc(45% - 2rem);
+            }
+        }
+        @media (max-width: 480px) {
+            .job-card {
+                width: calc(100% - 2rem);
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+            .available-fields h2 {
+                font-size: 1.5rem;
+            }
+        }
+        .go-to-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .go-to-button:hover {
+            background-color: #518db5;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Primary & Secondary School Teacher Roles</h1>
+        <p>Explore various roles for primary and secondary school teachers, focused on nurturing and educating students at different academic levels.</p>
+    </header>
+
+    <section class="available-fields">
+        <h2>Available Roles</h2>
+        <div class="container">
+            <!-- Teacher Role 1 -->
+            <div class="job-card">
+                <h2>Primary School Teacher</h2>
+                <p>Teach foundational subjects and foster the overall development of students in early education.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 2 -->
+            <div class="job-card">
+                <h2>Secondary School Teacher</h2>
+                <p>Specialize in subject-specific education for middle and high school students.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 3 -->
+            <div class="job-card">
+                <h2>Math Teacher</h2>
+                <p>Teach mathematics to primary or secondary school students, focusing on problem-solving and analytical skills.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 4 -->
+            <div class="job-card">
+                <h2>Science Teacher</h2>
+                <p>Deliver lessons in subjects like biology, chemistry, and physics to primary or secondary students.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 5 -->
+            <div class="job-card">
+                <h2>English Teacher</h2>
+                <p>Teach English language, literature, and communication skills to primary and secondary school students.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 6 -->
+            <div class="job-card">
+                <h2>History Teacher</h2>
+                <p>Introduce students to historical events, periods, and figures, fostering critical thinking and awareness.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 7 -->
+            <div class="job-card">
+                <h2>Geography Teacher</h2>
+                <p>Teach students about the physical world, the environment, and geographical concepts.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 8 -->
+            <div class="job-card">
+                <h2>Physical Education Teacher</h2>
+                <p>Encourage students to engage in physical activity and promote health, fitness, and well-being.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 9 -->
+            <div class="job-card">
+                <h2>Art Teacher</h2>
+                <p>Teach visual arts, creativity, and artistic techniques to students in schools.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 10 -->
+            <div class="job-card">
+                <h2>Music Teacher</h2>
+                <p>Guide students in learning music theory, instruments, and vocal techniques.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 11 -->
+            <div class="job-card">
+                <h2>Special Education Teacher</h2>
+                <p>Provide support and education to students with special needs or learning disabilities.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Teacher Role 12 -->
+            <div class="job-card">
+                <h2>Computer Science Teacher</h2>
+                <p>Teach students the fundamentals of computers, programming, and digital literacy.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

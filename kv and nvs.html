@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendriya Vidyalaya (KV) & Navodaya Vidyalaya (NVS) Teachers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: left;
+        }
+        header {
+            background: linear-gradient(135deg, #BBDEFB, #64B5F6);
+            color: #333;
+            padding: 1.5rem;
+            text-align: left;
+            border-radius: 15px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1rem;
+            color: #555;
+        }
+        .available-fields {
+            padding: 2rem;
+        }
+        .available-fields h2 {
+            text-align: left;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #444;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 1.5rem;
+            padding: 0 1rem;
+        }
+        .job-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: calc(23% - 2rem);
+            padding: 1.5rem;
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Color for each card */
+        .job-card:nth-child(1) { background-color: #BBDEFB; }
+        .job-card:nth-child(2) { background-color: #E3F2FD; }
+        .job-card:nth-child(3) { background-color: #64B5F6; }
+        .job-card:nth-child(4) { background-color: #E3F2FD; }
+        .job-card:nth-child(5) { background-color: #BBDEFB; }
+        .job-card:nth-child(6) { background-color: #FFFFFF; }
+        .job-card:nth-child(7) { background-color: #64B5F6; }
+        .job-card:nth-child(8) { background-color: #E3F2FD; }
+        .job-card:nth-child(9) { background-color: #BBDEFB; }
+        .job-card:nth-child(10) { background-color: #64B5F6; }
+        .job-card:nth-child(11) { background-color: #E3F2FD; }
+        .job-card:nth-child(12) { background-color: #FFFFFF; }
+
+        .job-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .job-card h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+            color: #444;
+        }
+        .job-card p {
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .job-card button {
+            background-color: #64B5F6;
+            color: black;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .job-card button:hover {
+            background-color: #42A5F5;
+        }
+
+        @media (max-width: 768px) {
+            .job-card {
+                width: calc(45% - 2rem);
+            }
+        }
+        @media (max-width: 480px) {
+            .job-card {
+                width: calc(100% - 2rem);
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+            .available-fields h2 {
+                font-size: 1.5rem;
+            }
+        }
+        .go-to-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1976D2;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .go-to-button:hover {
+            background-color: #1565C0;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kendriya Vidyalaya (KV) & Navodaya Vidyalaya (NVS) Teachers</h1>
+        <p>Explore career opportunities with Kendriya Vidyalayas (KV) and Navodaya Vidyalayas (NVS) offering teaching roles across India.</p>
+    </header>
+
+    <section class="available-fields">
+        <h2>Available Roles</h2>
+        <div class="container">
+            <!-- Role 1 -->
+            <div class="job-card">
+                <h2>PGT (Post Graduate Teacher)</h2>
+                <p>Teach senior secondary classes in specialized subjects like Physics, Chemistry, Biology, etc., in KV and NVS schools.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 2 -->
+            <div class="job-card">
+                <h2>TGT (Trained Graduate Teacher)</h2>
+                <p>Teach secondary school students in subjects such as Mathematics, English, Social Science, etc., in KV and NVS schools.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 3 -->
+            <div class="job-card">
+                <h2>PRT (Primary Teacher)</h2>
+                <p>Teach young children in primary classes with a focus on basic education in subjects like English, Hindi, and Mathematics.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 4 -->
+            <div class="job-card">
+                <h2>Music Teacher</h2>
+                <p>Instruct students in music, both vocal and instrumental, helping them develop a deep understanding and appreciation of music.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 5 -->
+            <div class="job-card">
+                <h2>Art & Craft Teacher</h2>
+                <p>Teach artistic skills including painting, drawing, and crafting, fostering creativity and self-expression among students.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 6 -->
+            <div class="job-card">
+                <h2>Physical Education Teacher</h2>
+                <p>Guide students in physical education activities, promoting fitness, sportsmanship, and healthy living.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 7 -->
+            <div class="job-card">
+                <h2>Counselor</h2>
+                <p>Provide counseling services to students for academic, emotional, and personal development.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 8 -->
+            <div class="job-card">
+                <h2>Librarian</h2>
+                <p>Manage the school library, curate educational resources, and guide students in accessing information for academic purposes.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 9 -->
+            <div class="job-card">
+                <h2>Computer Science Teacher</h2>
+                <p>Teach students about computer programming, technology, and digital literacy to prepare them for future opportunities.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 10 -->
+            <div class="job-card">
+                <h2>Physical Education Coach</h2>
+                <p>Train students in various sports and physical activities, building teamwork, coordination, and fitness.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 11 -->
+            <div class="job-card">
+                <h2>Special Educator</h2>
+                <p>Assist and teach students with special needs, creating inclusive learning environments for all students.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+
+            <!-- Role 12 -->
+            <div class="job-card">
+                <h2>Headmaster/Headmistress</h2>
+                <p>Oversee the administration of the school, manage staff, and ensure quality education is provided to students.</p>
+                <a href="application_form.html" class="go-to-button">Go to</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
